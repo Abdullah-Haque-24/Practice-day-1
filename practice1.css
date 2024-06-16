@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+.banner{
+    background-image: url("bg.jpg");
+    background-size: cover;
+    min-height: 100vh;
+}
+ul{
+    list-style-type: none;
+    font-size: 20px;
+    color: #FB9D5C;
+    display: inline;
+    margin-top: 60px;
+    margin-right: 100px;
+    float: right;
+    display: flex;
+    gap: 80px;
+}
+.logo{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.intro{
+    display: flex;
+    justify-content: space-between;
+    height: 1000px;
+}
+.taglines{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.first-line{
+    color: #FB9D5C;
+    margin-top: 200px;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.second-line{
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    font-size: 70px;
+    text-transform: capitalize;
+}
+.read-btn{
+    background-color:#FB9D5C;
+    font-size: 20px;
+    font-weight: lighter;
+    border-radius: 10px;
+    padding: 15px;
+    border: 0px;
+    
+}
+.land-img{
+    position: relative;
+    float: right;
+    margin-top: -20px;
+    margin-right: 60px;
+}
+.sponsors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px
+}
+.sponsors img{
+    width: 100%;
+    max-width: 200px;
+    padding-block: 50px;
+}
+.service-title{
+    font-size: 70px;
+    font-weight: 400;
+    text-align: center;
+}
+.service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.service-line-img{
+    display: inline-block;
+    margin: 0 auto;
+}
+.service-descrip{
+    max-width: 800px;
+    text-align: center;
+}
+.card{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid black;
+}
+.service-cards{
+    display: flex;
+    justify-content: space-evenly;
+    padding-block: 2rem;
+}
+.hire{
+    display: flex;
+    gap: 5rem;
+}
+.hire-btn{
+    background-color:#5ca4fb;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 0px;
+}
+.hire-contact{
+    display: flex;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+.hire-subheading{
+    max-width:30rem ;
+}
+.highlight{
+    color:#FB9D5C ;
+    text-transform: capitalize;
+}
+.description{
+    line-height: 1.5;
+}
+.description1{
+    margin-bottom: 1rem;
+}
+.footer{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    padding: 50px ;
+    color: white;
+    text-align: center;
+    
+}
+.footer-sec-title{
+    color: #FB9D5C;
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+.footer-logo{
+    max-height: 40px;
+}
+.footer-email{
+    padding: 10px;
+    background-color: gray;
+    color: white;
+}
+.footer-email::placeholder{
+    color:white;
+}
+.security-section-title{
+    display: flex;
+    justify-content: center;
+}
+.footer-learn-more{
+    font-size: 1.2rem;
+}
+.footer-features{
+    color: white;
+    display: block;
+    min-width: 200px;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    margin-top: 0;
+}
+.add{
+    font-size: 0.9rem;
+    margin-top: 0;
+    min-width:200px;
+}
+.footer-address{
+    display: flex;
+    font-size: 0.9rem;
+}
+.footer-add-col{
+    color: #FB9D5C;
+}
